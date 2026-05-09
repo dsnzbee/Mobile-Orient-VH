@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flight HUD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="horizon">
+    <div id="blue"></div>
+    <div id="orange"></div>
+
+    <div id="debug">
+      X: 0 <br>
+      Y: 0 <br>
+      ROLL: 0 <br>
+      PITCH: 0
+    </div>
+
+    <div id="ladder">
+      <div class="tick" style="top:38.5%;">+10</div>
+      <div class="tick small" style="top:43.8%;">+5</div>
+      <div class="tick center" style="top:48.5%;">0</div>
+      <div class="tick small" style="top:54.62%;">-5</div>
+      <div class="tick" style="top:60%;">-10</div>
+    </div>
+
+    <div id="horizonLine"></div>
+  </div>
+
+  <div id="yoke"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
